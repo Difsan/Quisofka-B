@@ -10,7 +10,7 @@ COPY . /app
 RUN mkdir -p build
 
 # Copy the built JAR files to the working directory
-COPY build/libs/*.jar build/libs/
+# COPY build/libs/*.jar build/libs/
 
 # Copy the built JAR files to the working directory
 COPY . /app
